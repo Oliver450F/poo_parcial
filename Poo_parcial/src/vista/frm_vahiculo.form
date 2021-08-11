@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="1" attributes="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="lbl_tipo" alignment="0" min="-2" pref="52" max="-2" attributes="0"/>
+                          <Component id="lbl_linea" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="lbl_chasis" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="lbl_serie" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="lbl_color" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="lbl_placa" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                          <Component id="txt_placa" pref="120" max="32767" attributes="0"/>
+                          <Component id="txt_color" alignment="0" max="32767" attributes="0"/>
+                          <Component id="txt_tipo" alignment="0" max="32767" attributes="0"/>
+                          <Component id="txt_linea" alignment="0" max="32767" attributes="0"/>
+                          <Component id="txt_chasis" alignment="0" max="32767" attributes="0"/>
+                          <Component id="txt_serie" alignment="0" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="lbl_marca" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="lbl_modelo" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="47" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Component id="txt_marca" min="-2" pref="69" max="-2" attributes="0"/>
+                          <Component id="txt_modelo" min="-2" pref="69" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+                      <Component id="jLabel1" min="-2" pref="45" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="txt_uso" min="-2" pref="77" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="45" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="lbl_vin" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel12" min="-2" max="-2" attributes="0"/>
+                          <Component id="lbl_Motor" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="txt_vin" max="32767" attributes="0"/>
+                                  <Component id="txt_motor" pref="150" max="32767" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="txt_cilindraje" min="-2" pref="125" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace min="35" max="32767" attributes="0"/>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="tbd_secundaria" pref="0" max="32767" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace max="32767" attributes="0"/>
+                      <Component id="btn_aceptar" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="185" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+          </Group>
+          <Group type="102" alignment="0" attributes="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="255" max="-2" attributes="0"/>
+                      <Component id="jLabel2" min="-2" pref="82" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="lbl_asientos" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="txt_asientos" min="-2" pref="120" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace max="32767" attributes="0"/>
+              <Component id="cmb_vehiculos" min="-2" pref="79" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="140" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lbl_tipo" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lbl_vin" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txt_tipo" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txt_vin" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabel1" alignment="3" min="-2" pref="20" max="-2" attributes="0"/>
+                  <Component id="txt_uso" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lbl_linea" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txt_linea" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="1" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lbl_Motor" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txt_motor" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="3" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lbl_chasis" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txt_chasis" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="3" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jLabel12" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txt_cilindraje" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="1" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lbl_serie" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txt_serie" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lbl_asientos" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabel2" alignment="1" min="-2" max="-2" attributes="0"/>
+                  <Component id="cmb_vehiculos" alignment="1" min="-2" max="-2" attributes="0"/>
+                  <Component id="txt_asientos" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="1" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="txt_color" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="lbl_color" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="lbl_placa" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="txt_placa" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="29" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="lbl_marca" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="txt_marca" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Component id="tbd_secundaria" min="-2" pref="100" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lbl_modelo" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txt_modelo" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="btn_aceptar" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace pref="45" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="lbl_tipo">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Tipo"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lbl_linea">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Linea"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lbl_chasis">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Chasis"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lbl_serie">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Serie"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lbl_asientos">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Asientos"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lbl_color">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Color"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lbl_placa">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Placa"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lbl_marca">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Marca"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lbl_modelo">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Modelo"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lbl_vin">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Vin"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lbl_Motor">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Motor"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel12">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Cilindraje"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="btn_aceptar">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Aceptar"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btn_aceptarActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txt_tipo">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txt_linea">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txt_chasis">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txt_serie">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txt_asientos">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txt_color">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txt_placa">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txt_marca">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txt_modelo">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txt_vin">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txt_motor">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txt_cilindraje">
+    </Component>
+    <Container class="javax.swing.JTabbedPane" name="tbd_secundaria">
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout"/>
+      <SubComponents>
+        <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+          <AuxValues>
+            <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+          </AuxValues>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="Vehiculos">
+                <Property name="tabTitle" type="java.lang.String" value="Vehiculos"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+          <SubComponents>
+            <Component class="javax.swing.JTable" name="tbl_vehiculos">
+              <Properties>
+                <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
+                  <Table columnCount="0" rowCount="4"/>
+                </Property>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JLabel" name="jLabel1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="uso"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txt_uso">
+    </Component>
+    <Component class="javax.swing.JComboBox" name="cmb_vehiculos">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="0"/>
+        </Property>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Tipo de vehiculo"/>
+      </Properties>
+    </Component>
+  </SubComponents>
+</Form>
